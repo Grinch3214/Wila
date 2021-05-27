@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Willa</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Yeseva+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__top">
+			<div class="header__box">
+				<div class="container header__flex">
+					<a class="header__logo" href="#">
+						<img class="header__logo-image" src="images/logo.png" alt="logo" >
+					</a>
+					<a class="header__logo-small" href="#">
+						<img class="logo__small-image" src="images/logo_min.png" alt="small logo" >
+					</a>
+					<nav class="header__navigation">
+						<ul class="header__menu">
+							<li class="header__item">
+								<a class="header__item-link" href="#" >Home</a>
+							</li>
+							<li class="header__item">
+								<a class="header__item-link" href="#" >About</a>
+							</li>
+							<li class="header__item">
+								<a class="header__item-link" href="#" >Group Therapy</a>
+							</li>
+							<li class="header__item">
+								<a class="header__item-link" href="#" >Our Programs</a>
+							</li>
+							<li class="header__item">
+								<a class="header__item-link" href="#" >Our Founder</a>
+							</li>
+							<li class="header__item">
+								<a class="header__item-link" href="#" >Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="menu__icon">
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="header__body container">
+				<h1 class="header__title">
+					We help people reach their full potential
+				</h1>
+				<p class="header__text">
+					WILA is at the forefront of a therapy movement, changing the ways people are treated when they need help but are held back by financial, cultural and systemic barriers.
+				</p>
+				<div class="header__button">
+					<a class="btn" href="#callback" >Begin Therapy</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="story">
+		<div class="container">
+			<div class="story__container">
+				<div class="story__top">
+					<h2 class="story__top-title">Tell your story. Change our world.</h2>
+				</div>
+				<div class="story__body">
+					<p class="story__body-text">
+						At WILA, not only do we provide affordable therapy to the diverse communities of Los Angeles, we address community needs through projects that see our clients as whole persons in society. Our goal is to empower everyday people to tell their story, understand themselves, and make a difference in their lives and their communities.
+					</p>
+					<p class="story__body-text">
+						Our socially conscious therapists provide low-cost and confidential therapy to individuals, couples, and families from all walks of life. No insurance? No problem. Our fees operate on a sliding scale, so reach out today and see if WILA is right for you.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="whatever">
+		<div class="whatever__images">
+			<img class="whatever__images-picture" src="images/picture1.jpg" alt="picture">
+		</div>
+		<div class="whatever__text">
+			<h2 class="whatever__text-title">
+				Whatever your reason for seeking support, Group Therapy at Wright Institute Los Angeles can help.
+			</h2>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container">
+			<div class="info__wrapper">
+				<div class="info__box">
+					<h3 class="info__box-title">Individualds</h3>
+					<p class="info__box-text">
+						Safe one-on-one sessions to explore who you are and how you can create new possibilities
+					</p>
+				</div>
+				<div class="info__box">
+					<h3 class="info__box-title">Couples</h3>
+					<p class="info__box-text">
+						Joint sessions to help you and your partner resolve underlying problems and increase intimacy
+					</p>
+				</div>
+				<div class="info__box">
+					<h3 class="info__box-title">Families</h3>
+					<p class="info__box-text">
+						Joint sessions for for loved ones who want to reduce conflict and improve communication
+					</p>
+				</div>
+				<div class="info__box">
+					<h3 class="info__box-title">Croups</h3>
+					<p class="info__box-text">
+						Meet together with likeminded individuals to reduce isolation and increase relatedness
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="people">
+		<div class="container">
+			<div class="people__wrapper">
+				<div class="people__section">
+					<h2 class="people__section-title">
+						All people have equal potential if they receive equal opportunities.
+					</h2>
+					<p class="people__section-text">
+						“I wanted to train clinical psychologists in a certain way, so they really understood people and understood the society in which we all live. I started the Wright Institute!” Hedda Bolgar, the founder
+					</p>
+				</div>
+				<div class="people__item">
+					<img class="people__item-image" src="images/picture2.jpg" alt="picture" >
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="callback" class="callback">
+		<div class="container">
+			<div class="callback__container">
+				<h2 class="callback__title">Email us and we’ll call you back.</h2>
+				<form class="form" action="#" method="POST">
+					<div class="callback__namebox"> <!--!Первый блок -->
+						<div class="callback__name">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="user_name" placeholder="Full name">
+						</div>
+						<div class="callback__phone">
+							<label for="phone">Phone number</label>
+							<input type="tel" id="phone" name="user_phone" placeholder="Best number to reach you directly">
+						</div>
+					</div>                            <!--!----------- -->
+					<div class="callback__checkbox">  <!--!Второй блок -->
+						<div class="callback__checksection">
+							<p>Best time to reach you</p>
+							<div class="checksection__check">
+								<input class="checksection__check-checkbox" type="checkbox" id="morning">
+								<label for="morning">Morning (9am-noon)</label>
+							</div>
+							<div class="checksection__check">
+								<input class="checksection__check-checkbox" type="checkbox" id="afternoon">
+								<label for="afternoon">Afternoon (noon-5pm)</label>
+							</div>
+							<div class="checksection__check">
+								<input class="checksection__check-checkbox" type="checkbox" id="evening">
+								<label for="evening">Evening (5pm-8pm)</label>
+							</div>
+						</div>
+						<div class="callback__brief">
+							<p>Brief message</p>
+							<label for="textbox"></label>
+							<textarea id="textbox" cols="30" rows="5" placeholder="Your text here"></textarea>
+						</div>
+					</div>                        <!--!----------- -->
+					<div class="callback__button">
+						<input class="callback__button-btn btn" type="submit" value="Begin Therapy">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<p class="footer__text">
+				© All rights reserved.
+			</p>
+		</div>
+	</footer>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
